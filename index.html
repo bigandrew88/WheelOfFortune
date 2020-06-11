@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Wheel of fortune</title>
+    <title>Wheel of Fortune</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="wheel.css" />
   </head>
 
   <body>
+      <div id="appTop">
+          <h1>Wheel of Fortune</h1>
+          <br/>
+          <label for="prize">Prize:</label>
+            <input type="text" name="prize" id="prize" disabled>
+              <span></span><br/><br/>
+          <label for="total">Prize Total:</label>
+            <input type="text" name="total" id="total" value="0" disabled>
+              <span></span><br/><br/><br/>
+      </div>
     <div id="app">
       <img class="marker" src="marker.png" />
-      <img class="wheel" src="wheel.png" />
+        <!--https://pngtree.com/so/marker-->
+      <img class="wheel" src="wheel2.png" />
         <!--https://pngtree.com/so/wheel-of-fortune-->
       <img class="button" src="button.png" />
         <!--https://pngtree.com/so/purple-->

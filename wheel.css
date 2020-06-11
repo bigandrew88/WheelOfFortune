@@ -1,3 +1,16 @@
+#appTop {
+    margin: 0 auto;
+    position: center;
+    text-align: center;
+}
+
+#appTop h1, appTop label, appTop input {
+  text-align: center;
+}
+
+.wheel {
+    align-content: center;
+}
 #app {
   width: 400px;
   height: 400px;
