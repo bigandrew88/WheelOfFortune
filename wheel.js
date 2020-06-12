@@ -1,6 +1,6 @@
-
 'use strict';
-var $ = function(id) { return document.getElementById(id); };
+
+var $ = function (id) { return document.getElementById(id); };
 
 var finalColor;
 
@@ -40,7 +40,7 @@ var finalColor;
 })();
 
 function findColor(angle){
-    let color, prize, prizeTotal;
+    let color;
     if (angle >= 0 && angle < 15){
         color =  "yellow_green";
         $("prize").value = "5000";
@@ -48,7 +48,7 @@ function findColor(angle){
     }else if (angle >= 15 && angle < 40){
         color =  "yellow";
         $("prize").value = "1000";
-       $("total").value = parseInt($("prize").value) + parseInt($("total").value);
+        $("total").value = parseInt($("prize").value) + parseInt($("total").value);
     }else if (angle >= 45 && angle < 66){
         color =  "orange";
         $("prize").value = "500";
